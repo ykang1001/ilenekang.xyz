@@ -1220,7 +1220,7 @@ figcaption {
   object-fit: scale-down;
 }
 
-.bold {
+.--bold {
   font-weight: 700;
 }
 
