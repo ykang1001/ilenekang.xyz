@@ -1,9 +1,7 @@
-/* Tables
-   ========================================================================== */
-/**
+/*
  * Remove most spacing between table cells.
  */
- table {
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -12,14 +10,6 @@ th {
   padding: 0;
 }
 
-/* webflow */
-/* @font-face {
-  font-family: 'webflow-icons';
-  src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -27,7 +17,7 @@ th {
 }
 html {
   height: 100%;
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system,Roboto,"Helvetica Neue", sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -38,16 +28,19 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333;
+  cursor: url("../images/blackcircle.svg") 25 25, auto;
+}
+a {
+  cursor: url("../images/blackfilled.svg") 25 25, auto;
 }
 
 .button {
   display: inline-block;
   padding: 9px 15px;
-  background-color: #3898EC;
+  background-color: #3898ec;
   color: white;
   border: 0;
   line-height: inherit;
@@ -60,6 +53,8 @@ body {
   max-width: 100%;
   display: inline-block;
 }
+
+/* clearfix */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -108,12 +103,12 @@ body {
 .navi:after {
   clear: both;
 }
-.navi-brand {
+/* .navi-brand {
   position: relative;
   float: left;
   text-decoration: none;
   color: #333333;
-}
+} */
 .navi-link {
   position: relative;
   display: inline-block;
@@ -125,20 +120,21 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.navi-link.current {
+.navi-link.--current {
   color: #0082f3;
 }
 .navi-menu {
   position: relative;
   float: right;
 }
-[data-nav-menu-open] {
+
+/* [data-nav-menu-open] {
   display: block !important;
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  background: #C8C8C8;
+  background: #c8c8c8;
   text-align: center;
   overflow: visible;
   min-width: 200px;
@@ -158,7 +154,7 @@ body {
 }
 .navi-overlay [data-nav-menu-open] {
   top: 0;
-}
+} */
 
 .container {
   margin-left: auto;
@@ -261,7 +257,6 @@ body {
 
 body {
   background-color: #1f1f1f;
-  font-family: Raleway;
   color: #fff;
   font-size: 16px;
   line-height: 28px;
@@ -397,9 +392,9 @@ figcaption {
   padding: 12px 25px;
   border-radius: 0px;
   background-color: #0f0f0f;
-  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease,
+    color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
   font-size: 12px;
   line-height: 20px;
@@ -424,7 +419,6 @@ figcaption {
   border-radius: 0px;
   -webkit-transition: border-color 400ms ease;
   transition: border-color 400ms ease;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   line-height: 26px;
 }
@@ -560,7 +554,7 @@ figcaption {
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #f8f8f8;
-  background-image: url('../images/Ellipse-60.png');
+  background-image: url("../images/Ellipse-60.png");
   background-position: 50% 8%;
   background-size: 100vw;
   background-repeat: no-repeat;
@@ -574,15 +568,13 @@ figcaption {
 
 .nav-link {
   padding: 20px;
-  font-family: Roboto;
   color: #dadada;
   font-weight: 300;
   cursor: none;
 }
 
-.nav-link.current {
+.nav-link.--current {
   padding-bottom: 10px;
-  font-family: Lato, sans-serif;
 }
 
 .hero {
@@ -593,10 +585,9 @@ figcaption {
   padding: 20vh 15vw 5vh;
 }
 
-.hero-header {
+.h__header {
   display: inline;
   float: right;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #3e4342;
   font-size: 25px;
   line-height: 30px;
@@ -605,10 +596,9 @@ figcaption {
   text-align: right;
 }
 
-.hero-subheader {
+.h__subheader {
   display: block;
   float: right;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #000;
   font-style: italic;
   font-weight: 300;
@@ -618,7 +608,7 @@ figcaption {
   object-fit: fill;
 }
 
-.project-nav-link {
+.p__nav-link {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -640,13 +630,12 @@ figcaption {
   background-color: transparent;
   -webkit-transition-property: none;
   transition-property: none;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #707070;
   font-size: 19px;
   text-decoration: none;
 }
 
-.project-nav-link:hover {
+.p__nav-link:hover {
   min-width: 322px;
   margin: 1px 0px;
   border: 0.5px solid #3d3d3d;
@@ -655,7 +644,7 @@ figcaption {
   color: #3d3d3d;
 }
 
-.project-nav-link.current {
+.p__nav-link.--current {
   min-width: 322px;
   padding: 10px;
   -webkit-align-self: flex-end;
@@ -666,76 +655,74 @@ figcaption {
   background-color: hsla(0, 0%, 100%, 0.4);
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #3d3d3d;
   font-size: 19px;
   font-weight: 600;
 }
 
-.project-card-text {
+.p__card-text {
   position: relative;
   display: block;
   width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #000;
 }
 
-.project-card-img {
+.p__card-img {
   position: static;
   width: 280px;
   height: 280px;
   min-width: 200px;
-  background-image: url('../images/WDAS-MAC-image.png');
+  background-image: url("../images/WDAS-MAC-image.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.project-card-img.wdas {
+.p__card-img.wdas {
   position: relative;
   width: 73%;
 }
 
-.project-card-img.wdas.logo {
-  background-image: url('../images/wdas.png');
+.p__card-img.wdas.logo {
+  background-image: url("../images/wdas.png");
   background-size: contain;
 }
 
-.project-card-img.csc212 {
+.p__card-img.csc212 {
   position: relative;
-  background-image: url('../images/UR-FEELING-MAC.png');
+  background-image: url("../images/UR-FEELING-MAC.png");
 }
 
-.project-card-img.newsbuds {
+.p__card-img.newsbuds {
   position: relative;
-  background-image: url('../images/newsbuds.png');
+  background-image: url("../images/newsbuds.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.project-card-img.mt {
+.p__card-img.mt {
   position: relative;
-  background-image: url('../images/mt-screen.png');
+  background-image: url("../images/mt-screen.png");
   background-position: 50% 50%;
   background-size: contain;
 }
 
-.project-card-img.tt {
-  background-image: url('../images/Travling-tree-🖥-iMac.png');
+.p__card-img.tt {
+  background-image: url("../images/Travling-tree-🖥-iMac.png");
   background-position: 50% 50%;
   background-size: auto;
 }
 
-.project-card-img.smirk {
-  background-image: url('../images/SmirKit-AR-1.png');
+.p__card-img.smirk {
+  background-image: url("../images/SmirKit-AR-1.png");
   background-position: 50% 50%;
   background-size: auto;
 }
 
-.project-title-desc {
+.p__title-desc {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -744,26 +731,25 @@ figcaption {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
-.project-title {
+.p__title {
   color: #000;
   font-size: 22px;
   font-weight: 700;
   text-align: center;
 }
 
-.projecttype {
+.p__type {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
 
-.projectyear {
+.p__year {
   letter-spacing: 2px;
 }
 
-.hero-text {
+.h__text {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -785,11 +771,11 @@ figcaption {
   align-items: flex-end;
 }
 
-.hero-text._2 {
+.h__text.--about {
   padding-left: 0px;
 }
 
-.project-card {
+.p__card {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -814,30 +800,31 @@ figcaption {
   -webkit-transition: opacity 200ms ease, -webkit-transform 300ms ease;
   transition: opacity 200ms ease, -webkit-transform 300ms ease;
   transition: transform 300ms ease, opacity 200ms ease;
-  transition: transform 300ms ease, opacity 200ms ease, -webkit-transform 300ms ease;
+  transition: transform 300ms ease, opacity 200ms ease,
+    -webkit-transform 300ms ease;
   text-decoration: none;
 }
 
-.project-card:hover {
+.p__card:hover {
   background-color: hsla(0, 0%, 100%, 0.3);
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
 
-.project-card:active {
+.p__card:active {
   background-color: hsla(0, 0%, 100%, 0.5);
 }
 
-.project-card.current {
+.p__card.--current {
   background-color: transparent;
 }
 
-.project-card.wdas.current {
+.p__card.wdas.--current {
   background-color: transparent;
 }
 
-.p-title {
+.pc__title {
   display: inline;
   font-size: 22px;
   font-weight: 700;
@@ -846,7 +833,7 @@ figcaption {
   object-fit: fill;
 }
 
-.p-sub {
+.pc__subtitle {
   display: inline;
   margin-left: 5px;
   font-size: 14px;
@@ -854,7 +841,7 @@ figcaption {
   text-transform: uppercase;
 }
 
-.p-sub-container {
+.pc__subcontainer {
   display: inline;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -894,7 +881,6 @@ figcaption {
 
 .nav-link {
   display: inline-block;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #3f3f3f;
   font-size: 18px;
   letter-spacing: 2px;
@@ -926,7 +912,7 @@ figcaption {
   text-decoration: line-through;
 }
 
-.nav-link.work.current {
+.nav-link.work.--current {
   position: relative;
   left: auto;
   top: auto;
@@ -934,14 +920,13 @@ figcaption {
   bottom: auto;
   width: auto;
   margin: 20px auto;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #000;
   font-weight: 400;
   letter-spacing: 1px;
   text-decoration: line-through;
 }
 
-.nav-link.work.current:hover {
+.nav-link.work.--current:hover {
   color: #000;
   font-weight: 600;
 }
@@ -955,7 +940,6 @@ figcaption {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -965,7 +949,7 @@ figcaption {
   text-decoration: line-through;
 }
 
-.nav-link.about.current {
+.nav-link.about.--current {
   left: 0px;
   right: auto;
   -webkit-transform: rotate(-90deg);
@@ -975,8 +959,7 @@ figcaption {
   text-decoration: line-through;
 }
 
-.nav-link.about.current:hover {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+.nav-link.about.--current:hover {
   font-weight: 600;
 }
 
@@ -989,7 +972,6 @@ figcaption {
   margin-left: 40px;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #000;
   font-size: 22px;
   line-height: 22px;
@@ -1002,27 +984,27 @@ figcaption {
   transform: scale(1.1);
 }
 
-.project-section {
+.p__section {
   display: block;
   margin: 0vh 0vw;
   padding: 10vh 15vw 10vh 5vw;
   opacity: 0.6;
 }
 
-.project-section:hover {
+.p__section:hover {
   opacity: 1;
 }
 
-.project-section:focus {
+.p__section:focus {
   opacity: 1;
 }
 
-.project-section.first {
+.p__section.first {
   margin-top: 10vh;
   padding-top: 5vh;
 }
 
-.project-nav-col {
+.p__nav-col {
   position: relative;
   left: auto;
   top: auto;
@@ -1054,26 +1036,25 @@ figcaption {
   font-style: italic;
 }
 
-.aboutme-header {
+.aboutme__header {
   margin-bottom: 20px;
-  font-family: 'Homemade Apple', sans-serif;
+  font-family: "Homemade Apple", sans-serif;
   color: #1f1f1f;
   font-size: 30px;
 }
 
-.aboutme-img {
+.aboutme__img {
   position: absolute;
   width: 14%;
   opacity: 0.6;
 }
 
-.aboutme-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+.aboutme__body {
   color: #1f1f1f;
   text-align: right;
 }
 
-.about-section {
+.about__section {
   padding: 4vh 15vw;
 }
 
@@ -1081,7 +1062,7 @@ figcaption {
   text-decoration: line-through;
 }
 
-.project-grid {
+.p__grid {
   padding-top: 5vh;
   grid-column-gap: 2vw;
   -ms-grid-columns: 0.55fr 1fr;
@@ -1090,7 +1071,7 @@ figcaption {
   grid-template-rows: auto auto auto auto auto auto;
 }
 
-.project-nav-bar {
+.p__nav-bar {
   position: -webkit-sticky;
   position: sticky;
   top: 38vh;
@@ -1111,7 +1092,7 @@ figcaption {
   object-fit: scale-down;
 }
 
-.project-hero-container {
+.p__hero-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1128,7 +1109,7 @@ figcaption {
   align-items: flex-end;
 }
 
-.project-deck {
+.p__deck {
   margin-top: 20px;
   border: 1px solid #000;
   background-color: transparent;
@@ -1137,7 +1118,7 @@ figcaption {
   text-transform: uppercase;
 }
 
-.project-hero {
+.p__hero {
   height: auto;
   margin-left: 0px;
   padding: 10vh 15vw 3vh;
@@ -1150,44 +1131,34 @@ figcaption {
   text-decoration: none;
 }
 
-.prj-template-summary {
+.p__hero-subtitle {
   display: inline;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   line-height: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-.project-p-text {
+.p__text {
   padding-left: 40px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   line-height: 16px;
 }
 
-.project-p-text.bold {
+.p__text.--bold {
   margin-top: 20px;
   padding-left: 0px;
 }
 
 .workswrap {
   display: block;
-  margin-left: 0px;
-  padding-right: 18vw;
-  padding-bottom: 2vh;
-  padding-left: 18vw;
-}
-
-.workswrap.temp {
-  display: block;
   padding-right: 15vw;
   padding-bottom: 5vh;
   padding-left: 15vw;
 }
 
-.workswrap.temp.hidden {
+.workswrap.--hidden {
   display: none;
 }
-.project-hero-col {
+.p__hero-col {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1198,33 +1169,30 @@ figcaption {
   align-items: center;
 }
 
-.project-content {
+.p__content {
   position: static;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #2c2c2c;
 }
 
-.project-section-header {
+.p__section-header {
   margin-top: 60px;
   margin-bottom: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-.project-link {
-  border-top: 1px solid #000;
+.p__link {
   text-align: right;
 }
 
-.project-summary {
+.p__summary {
   line-height: 16px;
   text-align: right;
 }
 
-.project-hero-desc {
+.p__hero-desc {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1241,7 +1209,7 @@ figcaption {
   align-items: flex-end;
 }
 
-.project-hero-img {
+.p__hero-img {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1256,12 +1224,11 @@ figcaption {
   font-weight: 700;
 }
 
-
-.project-text {
+.p__text {
   padding-left: 40px;
 }
 
-.project-ext-link {
+.p__ext-link {
   margin-bottom: 10px;
   color: #2b7012;
   text-decoration: none;
@@ -1274,7 +1241,7 @@ figcaption {
   display: flex;
 }
 
-.project-text-img {
+.p__text-img {
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -1318,7 +1285,7 @@ figcaption {
   text-decoration: underline;
 }
 
-.project-footer {
+.p__footer {
   position: relative;
   left: 0%;
   top: auto;
@@ -1332,15 +1299,15 @@ figcaption {
   float: none;
 }
 
-.project-nav-container {
+.p__nav-container {
   float: right;
 }
 
-.project-nav-container.next {
+.p__nav-container.next {
   padding-right: 15vw;
 }
 
-.project-nav-container.prev {
+.p__nav-container.prev {
   padding-left: 15vw;
   float: left;
 }
@@ -1373,7 +1340,7 @@ figcaption {
   text-align: right;
 }
 
-.project-e-text {
+.p__e-text {
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 20px;
@@ -1439,12 +1406,12 @@ figcaption {
   text-align: center;
 }
 
-.project-e-works {
+.p__e-works {
   padding: 20px;
   background-color: #8893a5;
 }
 
-.project-e-works.tt {
+.p__e-works.tt {
   display: block;
   background-color: #95a588;
 }
@@ -1525,59 +1492,59 @@ figcaption {
     margin-top: 8vh;
   }
 
-  .project-nav-link {
+  .p__nav-link {
     max-width: 290px;
     min-width: 290px;
     font-size: 16px;
     line-height: 20px;
   }
 
-  .project-nav-link:hover {
+  .p__nav-link:hover {
     min-width: 290px;
   }
 
-  .project-nav-link.current {
+  .p__nav-link.--current {
     min-width: 290px;
     font-size: 16px;
     line-height: 20px;
   }
 
-  .project-card-text {
+  .p__card-text {
     width: 100%;
     min-width: 200px;
   }
 
-  .project-title-desc {
+  .p__title-desc {
     font-size: 12px;
   }
 
-  .project-title {
+  .p__title {
     font-size: 18px;
   }
 
-  .projecttype {
+  .p__type {
     letter-spacing: 3px;
   }
 
-  .hero-text {
+  .h__text {
     margin-right: 0vw;
   }
 
-  .project-card {
+  .p__card {
     float: none;
   }
 
-  .project-section {
+  .p__section {
     padding-right: 0vw;
   }
 
-  .project-section.first {
+  .p__section.first {
     position: relative;
     right: 0px;
     padding-right: 0vw;
   }
 
-  .project-grid {
+  .p__grid {
     -ms-grid-columns: 0.55fr minmax(200px, 0.8fr);
     grid-template-columns: 0.55fr minmax(200px, 0.8fr);
   }
@@ -1609,35 +1576,35 @@ figcaption {
     padding-left: 5vw;
   }
 
-  .hero-header {
+  .h__header {
     font-size: 24px;
     line-height: 40px;
     text-align: right;
   }
 
-  .hero-subheader {
+  .h__subheader {
     font-size: 16px;
     line-height: 18px;
     text-align: center;
   }
 
-  .project-nav-link {
+  .p__nav-link {
     max-width: 500px;
   }
 
-  .project-title {
+  .p__title {
     font-size: 20px;
   }
 
-  .projecttype {
+  .p__type {
     font-size: 16px;
   }
 
-  .projectyear {
+  .p__year {
     font-size: 16px;
   }
 
-  .hero-text {
+  .h__text {
     padding-left: 0px;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
@@ -1645,7 +1612,7 @@ figcaption {
     align-items: flex-end;
   }
 
-  .p-title {
+  .pc__title {
     font-size: 20px;
   }
 
@@ -1657,7 +1624,7 @@ figcaption {
     background-color: hsla(0, 0%, 97.3%, 0.95);
   }
 
-  .nav-link.work.current {
+  .nav-link.work.--current {
     position: absolute;
     left: auto;
     top: auto;
@@ -1690,17 +1657,17 @@ figcaption {
     color: #000;
   }
 
-  .project-section {
+  .p__section {
     padding-right: 10vw;
     padding-left: 10vw;
   }
 
-  .project-nav-col {
+  .p__nav-col {
     z-index: 80;
     margin-top: 5vh;
   }
 
-  .project-grid {
+  .p__grid {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1712,7 +1679,7 @@ figcaption {
     flex-direction: column;
   }
 
-  .project-nav-bar {
+  .p__nav-bar {
     margin-right: 10vw;
   }
 
@@ -1727,7 +1694,7 @@ figcaption {
     text-align: right;
   }
 
-  .nav-link.current {
+  .nav-link.--current {
     right: 0px;
     display: block;
     padding-right: 35px;
@@ -1744,36 +1711,36 @@ figcaption {
     padding-left: 5vw;
   }
 
-  .hero-header {
+  .h__header {
     font-size: 20px;
     line-height: 25px;
   }
 
-  .hero-subheader {
+  .h__subheader {
     font-size: 10px;
     line-height: 20px;
   }
 
-  .project-nav-link {
+  .p__nav-link {
     max-width: 300px;
     font-size: 12px;
     line-height: 14px;
   }
 
-  .project-nav-link.current {
+  .p__nav-link.--current {
     font-size: 12px;
     line-height: 14px;
   }
 
-  .project-card {
+  .p__card {
     width: 90vw;
   }
 
-  .project-card.wdas {
+  .p__card.wdas {
     width: 90vw;
   }
 
-  .p-title {
+  .pc__title {
     font-size: 18px;
     line-height: 24px;
   }
@@ -1782,7 +1749,7 @@ figcaption {
     padding-right: 0vw;
   }
 
-  .nav-link.work.current {
+  .nav-link.work.--current {
     display: inline-block;
     padding-right: 20px;
   }
@@ -1791,24 +1758,24 @@ figcaption {
     padding-right: 20px;
   }
 
-  .project-section {
+  .p__section {
     padding-right: 5vw;
     padding-left: 0vw;
   }
 
-  .project-section.first {
+  .p__section.first {
     padding-left: 0vw;
   }
 
-  .project-nav-col {
+  .p__nav-col {
     min-width: 290px;
   }
 
-  .project-grid {
+  .p__grid {
     padding-top: 0vh;
   }
 
-  .project-nav-bar {
+  .p__nav-bar {
     margin-right: 0vw;
     margin-left: 0px;
   }
@@ -1837,4 +1804,3 @@ figcaption {
     grid-column-end: span 1;
   }
 }
-
