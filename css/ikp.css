@@ -1255,10 +1255,6 @@ figcaption {
   padding-bottom: 15vh;
 }
 
-.link-2 {
-  display: inline;
-}
-
 .p-nav-link {
   display: inline;
   float: right;
@@ -1386,9 +1382,6 @@ figcaption {
   margin-left: auto;
 }
 
-.link-3 {
-  display: inline;
-}
 
 .grid-9 {
   -webkit-box-align: center;
@@ -1423,23 +1416,23 @@ figcaption {
   opacity: 0.8;
 }
 
-.text-span {
+.text-highlight-yellow {
   background-color: #f8f2d4;
 }
 
-.text-span-2 {
+.text-highlight-orange {
   background-color: #f7e3cc;
 }
 
-.text-span-3 {
+.text-highlight-red {
   background-color: #f5cccd;
 }
 
-.text-span-4 {
+.text-highlight-green {
   background-color: #d3f9cc;
 }
 
-.text-span-5 {
+.text-highlight-blue {
   background-color: #e0f6f9;
 }
 
@@ -1468,6 +1461,8 @@ figcaption {
 .smirkit-link:hover {
   color: #544500;
 }
+
+/* mobile screen size settings */
 
 @media screen and (max-width: 991px) {
   .utility-button {
