@@ -33,9 +33,6 @@ body {
   color: #333;
   cursor: url("../images/blackcircle.svg") 25 25, auto;
 }
-a {
-  cursor: url("../images/blackfilled.svg") 25 25, auto;
-}
 
 .button {
   display: inline-block;
@@ -325,12 +322,13 @@ a {
   transition: opacity 200ms ease;
   color: #1a1b1f;
   text-decoration: underline;
-  cursor: none;
   background-color: transparent;
+  cursor: url("../images/blackfilled.svg") 25 25, auto;
 }
 
 a:hover {
   color: #32343a;
+  cursor: url("../images/blackfilled.svg") 25 25, auto;
 }
 
 a:active {
@@ -570,7 +568,6 @@ figcaption {
   padding: 20px;
   color: #dadada;
   font-weight: 300;
-  cursor: none;
 }
 
 .nav-link.--current {
