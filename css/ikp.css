@@ -1252,29 +1252,29 @@ figcaption {
   padding-bottom: 15vh;
 }
 
-.p-nav-link {
+.pf__nav-link {
   display: inline;
   float: right;
 }
 
-.p-nav-link.next {
+.pf__nav-link.next {
   padding-right: 0vw;
   float: right;
   text-align: right;
   text-decoration: none;
 }
 
-.p-nav-link.next:hover {
+.pf__nav-link.next:hover {
   text-decoration: underline;
 }
 
-.p-nav-link.prev {
+.pf__nav-link.prev {
   padding-left: 0vw;
   float: left;
   text-decoration: none;
 }
 
-.p-nav-link.prev:hover {
+.pf__nav-link.prev:hover {
   text-decoration: underline;
 }
 
@@ -1315,7 +1315,7 @@ figcaption {
   color: rgba(191, 70, 10, 0.8);
 }
 
-.p-nav-lable {
+.p__nav-lable {
   color: #717171;
   font-size: 12px;
   line-height: 20px;
@@ -1323,12 +1323,12 @@ figcaption {
   text-transform: uppercase;
 }
 
-.p-nav-lable.prev {
+.p__nav-lable.prev {
   direction: rtl;
   text-align: left;
 }
 
-.p-nav-lable.next {
+.p__nav-lable.next {
   direction: ltr;
   text-align: right;
 }
