@@ -17,6 +17,9 @@ $(window).on("scroll", function () {
   });
 });
 
+$('.nav').on("hover, function()"
+);
+
 function isScrolledIntoView(elem) {
   var docViewTop = $(window).scrollTop();
   var docViewBottom = docViewTop + $(window).height();

@@ -212,7 +212,8 @@ body {
   width: 25%;
 }
 .col-4 {
-  width: 33.33333333%;
+  max-width: fit-content;
+  width: 50vw;
 }
 .col-5 {
   width: 41.66666667%;
@@ -876,6 +877,11 @@ figcaption {
   background-color: hsla(0, 0%, 97.3%, 0.9);
 }
 
+
+.nav:hover{
+  background-color: pink;
+}
+
 .nav-link {
   display: inline-block;
   color: #3f3f3f;
@@ -926,6 +932,7 @@ figcaption {
 .nav-link.work.--current:hover {
   color: #000;
   font-weight: 600;
+  /* WHEN HOVER */
 }
 
 .nav-link.about {
@@ -1120,6 +1127,7 @@ figcaption {
   margin-left: 0px;
   padding: 10vh 15vw 3vh;
   text-align: left;
+  overflow: hidden;
 }
 
 .newsbuds-deck-link {
@@ -1164,6 +1172,9 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: space-around
+
+
 }
 
 .p__content {
@@ -1194,6 +1205,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: min-content;
+  min-width: 30vw;
   padding-right: 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1211,7 +1224,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-height: 32vh;
+  max-height: 90vh;
   min-height: 22vh;
   -o-object-fit: scale-down;
   object-fit: scale-down;
