@@ -1,15 +1,7 @@
-/*
- * Remove most spacing between table cells.
- */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-td,
-th {
-  padding: 0;
-}
+root {
+  --white0: #FFF;
 
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -27,29 +19,17 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: #fff;
+  background-color:var(--white0);
   font-size: 14px;
   line-height: 20px;
   color: #333;
   cursor: url("../images/blackcircle.svg") 25 25, auto;
 }
 
-.button {
-  display: inline-block;
-  padding: 9px 15px;
-  background-color: #3898ec;
-  color: white;
-  border: 0;
-  line-height: inherit;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 0;
-}
-
-.inline-block {
+/* .inline-block {
   max-width: 100%;
   display: inline-block;
-}
+} */
 
 /* clearfix */
 .clearfix:before,
@@ -1472,7 +1452,22 @@ figcaption {
   color: #544500;
 }
 
-/* mobile screen size settings */
+/*
+ * Remove most spacing between table cells.
+ * Will I ever have tables on this website tho
+ */
+ 
+/* table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+} */
+
+
+/* SCREEN SIZE GAH */
 
 @media screen and (max-width: 991px) {
   .utility-button {

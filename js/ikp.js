@@ -1,10 +1,10 @@
-// !(function (o, c) {
-//   var n = c.documentElement,
-//     t = " w-mod-";
-//   (n.className += t + "js"),
-//     ("ontouchstart" in o || (o.DocumentTouch && c instanceof DocumentTouch)) &&
-//       (n.className += t + "touch");
-// })(window, document);
+!(function (o, c) {
+  var n = c.documentElement,
+    t = " w-mod-";
+  (n.className += t + "js"),
+    ("ontouchstart" in o || (o.DocumentTouch && c instanceof DocumentTouch)) &&
+      (n.className += t + "touch");
+})(window, document);
 
 
 $(window).on("scroll", function () {
@@ -16,9 +16,9 @@ $(window).on("scroll", function () {
     }
   });
 });
+$('.nav').on("hover", function(){
 
-$('.nav').on("hover, function()"
-);
+});
 
 function isScrolledIntoView(elem) {
   var docViewTop = $(window).scrollTop();
