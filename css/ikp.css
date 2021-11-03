@@ -859,7 +859,8 @@ figcaption {
 
 
 .nav:hover{
-  background-color: pink;
+  /* background-color: pink; */
+  background-color: white;
 }
 
 .nav-link {
