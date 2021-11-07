@@ -80,6 +80,12 @@ body {
 .navi:after {
   clear: both;
 }
+.subnav {
+  visibility: hidden;
+  display: flex;
+  height: min-content;
+  position: relative;
+}
 /* .navi-brand {
   position: relative;
   float: left;
@@ -555,6 +561,7 @@ figcaption {
   padding-bottom: 10px;
 }
 
+
 .hero {
   position: relative;
   display: block;
@@ -858,9 +865,11 @@ figcaption {
 }
 
 
-.nav:hover{
-  /* background-color: pink; */
-  background-color: white;
+.nav:hover + .subnav{
+  background-color: pink;
+  /* background-color: white; */
+  display:visible;
+
 }
 
 .nav-link {
@@ -948,6 +957,12 @@ figcaption {
   font-weight: 600;
 }
 
+.nav-link.work.n__projects{
+  margin-top: 0px;
+  padding: 5px;
+  text-transform: none;
+}
+
 .ilene-logo-heading {
   position: absolute;
   top: 20px;
@@ -1019,6 +1034,9 @@ figcaption {
   padding-left: 6px;
   font-family: 'Homemade Apple', sans-serif;
   font-style: italic;
+}
+.emph :hover{
+
 }
 
 .aboutme__header {
@@ -1782,7 +1800,7 @@ th {
   }
 }
 
-#w-node-_35bc8051-ab4a-bebc-2130-49d7751009f5-485ecec1 {
+#works__prj-grid {
   -ms-grid-row: span 6;
   grid-row-start: span 6;
   -ms-grid-row-span: 6;
@@ -1794,7 +1812,7 @@ th {
 }
 
 @media screen and (max-width: 991px) {
-  #ps-wdas.w-node-ac1f091a-9ef6-02f5-536f-609114269ca0-485ecec1 {
+  #ps-wdas {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
