@@ -1812,7 +1812,7 @@ th {
 }
 
 @media screen and (max-width: 991px) {
-  #ps-wdas {
+  #ps-wdas.works__prj-grid {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
