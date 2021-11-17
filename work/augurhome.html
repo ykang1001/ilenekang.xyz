@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
   <meta charset="utf-8">
   <title>AugURhome</title>
@@ -25,11 +26,15 @@
     <a href="/" class="inline-block">
       <h1 class="ilene-logo-heading">Ilene Kang</h1>
     </a>
-    <a href="/" class="nav-link work navi-link">WORKS</a>
+    <!-- <a href="/" class="nav-link work navi-link">WORKS</a>
     <a href="/about" class="nav-link about navi-link">About</a>
     <div class="nav-button">
-      <div class="menu-hamburger w-icon-nav-menu"></div>
+      <div class="menu-hamburger w-icon-nav-menu"></div> -->
+    <div class="nav2">
+      <a href="/" aria-current="page" class="nav-link v2">WORKS</a>
+      <a href="../about" aria-current="page" class="nav-link v2">ABOUT</a>
     </div>
+  </div>
   </div>
   <div class="p__content">
     <div class="p__hero ">
@@ -55,25 +60,54 @@
       </div>
     </div>
     <div class="workswrap ">
-      <h4 class="p__section-header">Inspiration</h4>
-      <p class="p__text">People think that climate change are consequences that we will face way in the future. <br>But
-        that is simply not true!</p>
-      <h4 class="p__section-header">the problem</h4>
-      <p class="p__text">How can we convince people that climate change is real and coming very soon?</p>
-      <div class="layout-grid grid-9">
-        <p class="p__text"><span class="p__text --bold">Showing</span><br>Visual cue would probably capture the users
-          attention and best represent how problematic climate change can be.<strong></strong><br></p>
-        <p class="p__text"><span class="p__text --bold">Telling<br></span>Letting users directly know what kinds of
-          climate change they will be facing will help them understand the direct correlation.<strong></strong><br></p>
-        <p id="w-node-dc8ef5e7-0de7-dc2a-fa64-1a73b3908b88-bab2e9aa" class="p__text"><span
-            class="p__text --bold">Suggesting Action<br>‍</span>After being shown and told about the fast-approaching
-          climate change, the users will want to checkout more resources on climate change<strong></strong><br></p>
+      <div class="s__works-center">
+        <h4 class="h__overline">Inspiration</h4>
+        <!-- <h4 class="h__section-header">Climate Change is Real!</h4> -->
+        <p class="p__text --center">People think that climate change are consequences that we will face way in the
+          future.
+          <br>But
+          that is simply not true!
+        </p>
       </div>
-      <h4 class="p__section-header">The Solution</h4>
-      <p class="p__e-text">augURhome<br><br>augur is an app that helps <span class="p__text --bold">visualize the
-          impacts of climate change</span> of your home based using ML library called styleClip and API created based on
-        propublica data.</p>
-      <h4 class="p__section-header">Process</h4>
+      <div class="s__works-center">
+        <h4 class="h__overline">Problem</h4>
+        <h4 class="h__section-header">Climate Change is Real!</h4>
+
+        <p class="p__text">How can we convince people that climate change is real and coming very soon?</p>
+        <div class="layout-grid grid-9">
+          <p class="p__text --center"><span class="p__text --bold">Showing</span><br>Visual cue would probably capture
+            the users
+            attention and best represent how problematic climate change can be.<strong></strong><br></p>
+          <p class="p__text"><span class="p__text --bold">Telling<br></span>Letting users directly know what kinds of
+            climate change they will be facing will help them understand the direct correlation.<strong></strong><br>
+          </p>
+          <p id="w-node-dc8ef5e7-0de7-dc2a-fa64-1a73b3908b88-bab2e9aa" class="p__text"><span
+              class="p__text --bold">Suggesting Action<br>‍</span>After being shown and told about the fast-approaching
+            climate change, the users will want to checkout more resources on climate change<strong></strong><br></p>
+        </div>
+      </div>
+
+
+      <div class="s__works-center">
+        <h4 class="h__overline">The Solution</h4>
+        <h4 class="h__section-header">Using Technology to Help the Climate</h4>
+        <p class="p__e-text">augURhome<br><br>augur is an app that helps <span class="p__text --bold">visualize the
+            impacts of climate change</span> of your home based using ML library called styleClip and API created based
+          on
+          propublica data.</p>
+      </div>
+      <div class="s__works-reg">
+
+        <h4 class="h__overline">Process</h4>
+        <h4 class="h__section-header">Low Fidelity & High Fidelity Prototypes</h4>
+
+        <div>
+          <img class="p__works-img" src="../images/augur lofi clear.png" loading="lazy" alt="">
+          <img class="p__works-img" src="../images/augur hifi clear.png" loading="lazy" alt="">
+
+        </div>
+      </div>
+      <!-- 
       <div class="p__e-works"><img src="../images/augur-lofi.png" loading="lazy"
           sizes="(max-width: 479px) 62vw, (max-width: 767px) 65vw, (max-width: 991px) 66vw, (max-width: 3892px) 68vw, 2647px"
           srcset="../images/augur-lofi.png 500w, ../images/augur-lofi.png 800w, ../images/augur-lofi.png 1080w, ../images/augur-lofi.png 1600w, ../images/augur-lofi.png 2647w"
@@ -81,16 +115,23 @@
       <div class="p__e-works"><img src="../images/augur-hifi.png" loading="lazy"
           sizes="(max-width: 479px) 62vw, (max-width: 767px) 65vw, (max-width: 991px) 66vw, (max-width: 3892px) 68vw, 2647px"
           srcset="../images/augur-hifi.png 500w, ../images/augur-hifi.png 800w, ../images/augur-hifi.png 1080w, ../images/augur-hifi.png 1600w, ../images/augur-hifi.png 2000w, ../images/augur-hifi.png 2600w, ../images/augur-hifi.png 2647w"
-          alt=""></div>
-      <h4 class="p__section-header">Pivot</h4>
-      <p class="p__e-text">Although the how this app was going to be built was solidified, we were not sure whether
-        building an app was the correct mode to reach our audience. Our audience was to motivate people who did not
-        think climate change would personally affect them; would people who don’t believe in climate change really
-        download an app that will obviously tell you about the detrimental effects of climate change?<br><br>Because we
-        were designing a small function to help people realize that climate change will personally effect them, our
-        solution changed from creating an app to finding a solution on the right mode.<br><br>This led us to some of the
-        more popularly used channels in social media like Instagram, TikTok and Snapchat.<br><br><br>We are currently
-        pivoting our project to a AR function on Snapchat!<br>Details soon to come!</p>
+          alt=""></div> -->
+      <div class="s__works-reg">
+
+        <h4 class="h__overline">Pivot</h4>
+        <h4 class="h__section-header">Re-Thinking</h4>
+
+        <p class="p__e-text">Although the how this app was going to be built was solidified, we were not sure whether
+          building an app was the correct mode to reach our audience. Our audience was to motivate people who did not
+          think climate change would personally affect them; would people who don’t believe in climate change really
+          download an app that will obviously tell you about the detrimental effects of climate change?<br><br>Because
+          we
+          were designing a small function to help people realize that climate change will personally effect them, our
+          solution changed from creating an app to finding a solution on the right mode.<br><br>This led us to some of
+          the
+          more popularly used channels in social media like Instagram, TikTok and Snapchat.<br><br><br>We are currently
+          pivoting our project to a AR function on Snapchat!<br>Details soon to come!</p>
+      </div>
     </div>
     <div class="p__footer clearfix ">
       <div class="p__nav-container prev clearfix">
